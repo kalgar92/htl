@@ -207,4 +207,9 @@ p, ul, li {
 }
 label {
 	color:#fff;
+	width:100%;
+}
+input, textarea {
+	width:100%;
+	background:#B9BEC1;
 }
