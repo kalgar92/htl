@@ -1,0 +1,155 @@
+body, html, main {
+    width: 100%;
+    height: 100%;
+}
+
+
+a {
+    color:#FFF;
+}
+
+ul.nav, ul.nav li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.nav li a {
+    float:left;
+    padding:24px;
+}
+li.logo a {
+    padding:0; 
+}
+.menu {
+    background: #FFF;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.main {
+    background: url('../img/bg.jpg') no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+}
+.infobar {
+    position: fixed;
+    bottom: 0;
+    background: #44310F;
+    width: 100%;
+    height: 50px;
+    left:0;
+    padding-top: 10px;
+    line-height: 50px;
+    vertical-align: center;
+}
+.infobar-text {
+    position: relative;
+    top: -6px;
+    left: 8px;
+    color:#FFF;
+}
+
+
+
+
+
+
+.gamme {
+    background: url('../img/food.png') no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    height: 400px;
+}
+
+.grands-crus {
+    background: url('../img/grands-crus.jpg') no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    height: 400px;
+}
+
+
+.library {
+    background: url('../img/librarie.jpg') no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    height: 400px;
+}
+
+
+
+.row {
+    width: 960px;
+    margin: auto;
+    overflow: auto;
+}
+.row-fullwidth {
+    width: 100%;
+}
+.cell {
+    padding:1%;
+}
+
+.col-25, .col-33, .col-50, .col-66 {
+    float: left;
+    display: block;
+}
+
+.col-50 {
+    width: 50%;
+}
+.col-25 {
+    width: 25%;
+}
+.col-33 {
+    width: 33.33%;
+}
+.col-66 {
+    width: 66.66%;
+}
+@media(max-width:960px){
+    .row {
+        width: 100%;
+    }
+}
+
+
+
+/* colors */
+.infobar i {
+    color:#67BF69;
+}
+h1, h2, h3 {
+    color:#67BF69;
+}
+
+/* Typo */
+
+.infobar {
+    font-family: 'Open Sans Condensed';
+}
+.infobar-text {
+    font-size: 1.2rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#67BF69;
+    background: #FFF;
+    display: block;
+    float: left;
+    padding: 2%;
+}
+
+
+
