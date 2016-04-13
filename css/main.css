@@ -201,3 +201,10 @@ p, ul, li {
     top:2%;
     left:2%;
 }
+.contact {
+	font-family: 'Amatic SC', sans-serif;
+	background:#333; 
+}
+label {
+	color:#fff;
+}
