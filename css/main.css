@@ -86,6 +86,31 @@ li.logo a {
     height: 400px;
 }
 
+.grands-crus p {
+    display: block;
+    width: 100%;
+    float: left;
+    background: rgba(0,0,0,0.3);
+    color: #FFF;
+    padding: 2%;
+}
+
+.la-carte {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+}
+.la-carte h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.la-carte ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    color: #fff;
+}
 
 
 .row {
@@ -145,7 +170,7 @@ h2 {
 /* Typo */
 
 .infobar {
-    font-family: 'Amatic SC';
+    font-family: 'Open Sans Condensed';
 }
 .infobar-text {
     font-size: 1.2rem;
@@ -168,7 +193,9 @@ h1 {
     left: calc(50% - 150px);
     position: absolute;
 }
-
+p, ul, li {
+    font-family: Georgia, Serif;
+}
 .insta {
     position: relative;
     top:2%;
