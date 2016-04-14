@@ -82,15 +82,9 @@ li.logo a {
     color:#FFF;
 }
 
-
-
-
-
-
 .gamme {
-    background: url('../img/food2.png') no-repeat center;
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
+    background-color: rgba(103,191,105,0.5);
+    background-image: url('../img/kindajean.png');
     height: 100vh;
 }
 
@@ -121,7 +115,7 @@ li.logo a {
 .la-carte {
     width: 50%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: calc(50vh - 200px);
 }
 .la-carte h2 {
     width: 100%;
@@ -231,6 +225,7 @@ h1 {
     top: calc(50% - 40px);
     left: calc(50% - 200px);
     position: absolute;
+    background: rgba(245, 244, 244, 0.47);
 }
 p, ul, li {
     font-family: 'Open Sans Condensed', Serif;
